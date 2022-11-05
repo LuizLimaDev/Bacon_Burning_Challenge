@@ -1,0 +1,61 @@
+.container__programas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    /* border-bottom: 1px solid var(--cor-amarela); */
+}
+
+.programas__chamada {
+    margin: 1rem 0;
+    color: var(--cor-vermelho-escuro);
+    font-weight: 500;
+    background-color: var(--cor-vermelho-claro);
+    border-radius: 30px;
+    padding: .4rem;
+  
+}
+
+.programas__individual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.programa__individual-icone{
+    width: 30%;
+    margin-right: 1rem;
+}
+
+.programas__individual-descricao {
+    margin-top: .5rem;
+}
+
+.programas__individual-btn,
+.programas__desafio-btn {
+    background-color: var(--cor-amarela);
+    border-radius: 30px;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+.programas__desafio-icone {
+    width: 30%;
+}
+
+.programas__desafio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.programas__desafio-icone {
+    margin-left: 1rem;
+}
+
+.programas__desafio-descricao {
+    margin-top: .5rem;
+}

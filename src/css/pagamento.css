@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1rem;
+}
+
+.container__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--cor-amarela);
+}
+
+.header__logo {
+    width: 15vh;
+    margin: 1rem;
+}
+
+.header__titulo {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.principal__titulo {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.principal__formasDePagamento,
+.principal__pagamento-pix {
+    margin: 1.5rem 0;
+}
+
+p {
+    color: var(--cor-cinza);
+}
+
+.principal__formasDePagamento {
+    font-weight: 500;
+}
+
+.principal__cartoes-btn {
+    background-color: var(--cor-amarela);
+    padding: .3rem;
+    border-radius: 10px;
+}
+
+.principal__cartoes-detalhes,
+.principal__pix-comprovante {
+    margin-top: .7rem;
+    font-weight: 300;
+    font-size: .8rem;
+}
+
+.principal__pagamento-cartao,
+.principal__prazo {
+    margin-top: 2rem;
+}
+
+.container__btn {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: right;
+}
+
+
+.btn__voltar {
+    background-color: var(--cor-vermelho-escuro);
+    padding: .7rem;
+    color: var(--cor-branco);
+    border-radius: 10px;
+}

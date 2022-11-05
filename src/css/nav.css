@@ -1,0 +1,24 @@
+.container__navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding-right: 2.5rem;
+}
+
+.navegacao__logo {
+    width: 15vh;
+}
+
+.navegacao__paginas {
+    display: none;
+}
+
+.participar__btn {
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: var(--cor-amarela);
+    border-radius: 10px;
+    
+}

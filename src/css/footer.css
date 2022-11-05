@@ -1,0 +1,33 @@
+.container__rodape {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    background-color: var(--cor-vermelho-claro);
+    border-top: 1px solid var(--cor-vermelho-escuro);
+    /* border-bottom: 1px solid var(--cor-vermelho-escuro); */
+}
+
+.rodape__logo-CoachZicke {
+    width: 50%;
+    margin: 1rem 0 2rem 0;
+}
+
+.rodape__baconBurning-textoColorido {
+    color: var(--cor-amarela);
+}
+
+.rodape__logo-BaconBurning {
+    width: 50%;
+    margin: 1.5rem 0 0 0;
+}
+
+.rodape__redesSociais {
+    margin-left: 27%;
+}
+
+.rodape__lista-whastapp,
+.rodape__lista-instagram {
+    width: 30%;
+    padding: 1rem;
+}

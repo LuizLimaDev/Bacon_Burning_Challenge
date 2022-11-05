@@ -1,0 +1,38 @@
+.container__funcionamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    border-bottom: 1px solid var(--cor-amarela);
+}
+
+.funcionamento__titulo-colorido {
+    color: var(--cor-amarela);
+}
+
+.funcionamento__chamada {
+    margin-top: 1rem;
+    color: var(--cor-vermelho-escuro);
+    font-weight: 500;
+    background-color: var(--cor-vermelho-claro);
+    border-radius: 30px;
+    padding: .4rem;
+}
+
+.funcionamento__lista {
+    margin: 1rem;
+}
+
+.funcionamento__lista-itens {
+    color: var(--cor-cinza);
+    font-weight: 300;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.funcionamento__rodape {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
