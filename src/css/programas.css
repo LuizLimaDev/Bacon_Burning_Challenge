@@ -4,7 +4,10 @@
     align-items: center;
     justify-content: center;
     margin: 1rem;
-    /* border-bottom: 1px solid var(--cor-amarela); */
+}
+
+.programas__container-secundario {
+    margin-bottom: 2rem;
 }
 
 .programas__chamada {
@@ -41,6 +44,10 @@
     margin-bottom: 1rem;
 }
 
+.programas__individual-btn {
+    margin-left: 75%;
+}
+
 .programas__desafio-icone {
     width: 30%;
 }
@@ -49,7 +56,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0 1rem 0;
+    margin: 3rem 0 1rem 0;
 }
 
 .programas__desafio-icone {
@@ -58,4 +65,45 @@
 
 .programas__desafio-descricao {
     margin-top: .5rem;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+.container__programas {
+    border-bottom: none;
+    margin-bottom: 4rem;
+}
+
+.programas__container-secundario {
+    width: 65vw;
+    display: grid;
+    flex-direction: row;
+    grid-template-areas: 
+    "individual desafio";
+    grid-template-columns: 50% 50%;
+}
+
+.programas__chamada {
+    margin-top: 4rem;
+}
+
+.programas__individual {
+    grid-area: individual;
+    margin: 2rem;
+}
+
+.programas__desafio {
+    grid-area: desafio;
+    margin: 2rem;
+}
+
+.programas__desafio-btn,
+.programas__individual-btn {
+    width: 15%;
+    margin: .25rem auto;
+    
+}
+
 }

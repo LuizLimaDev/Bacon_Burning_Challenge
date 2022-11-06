@@ -36,3 +36,30 @@
     font-size: 1rem;
     margin-bottom: 2rem;
 }
+
+@media screen and (min-width: 1024px) {
+
+.container__funcionamento {
+    border-bottom: none;
+    margin: 3rem 35rem;
+    background-color: var(--cor-vermelho-claro);
+    border-radius: 5px;
+}
+
+.funcionamento__chamada {
+    background-color: transparent;
+}
+
+.funcionamento__lista {
+    margin: 2.5rem;
+}
+
+.funcionamento__lista-itens {
+    margin: .25rem 0;
+}
+
+.funcionamento__rodape {
+    margin-top: 2.5rem;
+}
+
+}
