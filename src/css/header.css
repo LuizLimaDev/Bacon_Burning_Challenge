@@ -9,7 +9,7 @@
 }
 
 .chamariz__chamada {
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     color: var(--cor-vermelho-escuro);
     font-weight: 500;
     background-color: var(--cor-vermelho-claro);
@@ -28,22 +28,27 @@
     font-weight: 300;
     color: var(--cor-cinza);
     padding-bottom: 1.5rem;
+    margin: 0 2rem 2rem 2rem;
 }
 
 @media screen and (min-width: 1024px) {
 
-.container_chamariz {
-    border-top: none;
-    border-bottom: none;
-    margin-top: 3rem;
-}
+    .container_chamariz {
+        border-top: none;
+        border-bottom: none;
+        margin-top: 1rem;
+    }
 
-.chamariz__titulo {
-    margin: 2.5rem;
-}
+    .chamariz__chamada {
+        margin-top: 1rem;
+    }
 
-.chamariz__descricao {
-    margin: 0 30%;
-}
+    .chamariz__titulo {
+        margin: 2.5rem;
+    }
+
+    .chamariz__descricao {
+        margin: 0 30%;
+    }
 
 }

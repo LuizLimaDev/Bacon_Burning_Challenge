@@ -12,7 +12,7 @@
 }
 
 .funcionamento__chamada {
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     color: var(--cor-vermelho-escuro);
     font-weight: 500;
     background-color: var(--cor-vermelho-claro);
@@ -21,7 +21,7 @@
 }
 
 .funcionamento__lista {
-    margin: 1rem;
+    margin: 1rem 2rem;
 }
 
 .funcionamento__lista-itens {
@@ -34,7 +34,7 @@
 .funcionamento__rodape {
     text-align: center;
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin: 0 2rem 3rem 2rem;
 }
 
 @media screen and (min-width: 1024px) {

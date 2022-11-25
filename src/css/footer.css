@@ -8,8 +8,8 @@
 }
 
 .rodape__logo-CoachZicke {
-    width: 50vw;
-    margin: 1rem auto;
+    width: 30vw;
+    margin: 2rem auto;
 }
 
 .rodape__baconBurning-textoColorido {
@@ -22,8 +22,8 @@
 }
 
 .rodape__logo-BaconBurning {
-    width: 50vw;
-    margin: 1.5rem auto;
+    width: 20vw;
+    margin: 0 auto;
 }
 
 .rodape__redesSociais {
@@ -43,7 +43,7 @@
 
 .rodape__lista-whastapp,
 .rodape__lista-instagram {
-    width: 30vw;
+    width: 10vw;
     padding: 1rem;
 }
 
@@ -64,11 +64,13 @@
 }
 
 .rodape__logo-CoachZicke {
-    width: 20vw;
+    width: 10vw;
 }
 
 .rodape__logo-BaconBurning {
-    width: 10vw;
+    width: 8vw;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .rodape__redesSociais {
@@ -78,7 +80,7 @@
 
 .rodape__lista-whastapp,
 .rodape__lista-instagram {
-    width: 5vw;
+    width: 4vw;
     padding: 1rem;
 }
 

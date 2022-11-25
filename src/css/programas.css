@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
+    margin-top: 2.5rem;
 }
 
 .programas__container-secundario {
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 2rem 1rem 2rem;
 }
 
 .programa__individual-icone{
@@ -42,6 +42,7 @@
     border-radius: 30px;
     padding: .5rem;
     margin-bottom: 1rem;
+    margin-left: 2rem;
 }
 
 .programas__individual-btn {
@@ -56,7 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3rem 0 1rem 0;
+    margin: 3rem 2rem 1rem 2rem;
 }
 
 .programas__desafio-icone {
@@ -83,6 +84,7 @@
     grid-template-areas: 
     "individual desafio";
     grid-template-columns: 50% 50%;
+    
 }
 
 .programas__chamada {
@@ -91,12 +93,12 @@
 
 .programas__individual {
     grid-area: individual;
-    margin: 2rem;
+    margin: 5rem;
 }
 
 .programas__desafio {
     grid-area: desafio;
-    margin: 2rem;
+    margin: 5rem;
 }
 
 .programas__desafio-btn,
