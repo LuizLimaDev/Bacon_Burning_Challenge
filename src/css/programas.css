@@ -34,6 +34,7 @@
 
 .programas__individual-descricao {
     margin-top: .5rem;
+    margin-bottom: 1rem;
 }
 
 .programas__individual-btn,
@@ -41,12 +42,11 @@
     background-color: var(--cor-amarela);
     border-radius: 30px;
     padding: .5rem;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
+    margin: 1rem 0 1rem 2rem;
 }
 
 .programas__individual-btn {
-    margin-left: 75%;
+    margin-left: 70%;
 }
 
 .programas__desafio-icone {
@@ -66,6 +66,7 @@
 
 .programas__desafio-descricao {
     margin-top: .5rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -98,7 +99,7 @@
 
 .programas__desafio {
     grid-area: desafio;
-    margin: 5rem;
+    margin: 2rem;
 }
 
 .programas__desafio-btn,
@@ -107,5 +108,4 @@
     margin: .25rem auto;
     
 }
-
 }

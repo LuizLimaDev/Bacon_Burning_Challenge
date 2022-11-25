@@ -2,9 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem;
-    padding-right: 2.5rem;
-    margin-bottom: 2rem;
+    margin: 1rem 0 2rem 1rem;
+    padding-right: 2rem;
 }
 
 .navegacao__logo {
@@ -21,7 +20,6 @@
     padding: 1rem;
     background-color: var(--cor-amarela);
     border-radius: 10px;
-    margin-right: 1rem;
 }
 
 @media screen and (min-width: 1024px) {

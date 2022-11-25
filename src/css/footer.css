@@ -5,10 +5,11 @@
     align-items: center;
     background-color: var(--cor-vermelho-claro);
     border-top: 1px solid var(--cor-vermelho-escuro);
+    margin-top: 1git strem;
 }
 
 .rodape__logo-CoachZicke {
-    width: 30vw;
+    width: 35vw;
     margin: 2rem auto;
 }
 
@@ -22,7 +23,7 @@
 }
 
 .rodape__logo-BaconBurning {
-    width: 20vw;
+    width: 30vw;
     margin: 0 auto;
 }
 
@@ -43,7 +44,8 @@
 
 .rodape__lista-whastapp,
 .rodape__lista-instagram {
-    width: 10vw;
+    margin-top: 1rem;
+    width: 20vw;
     padding: 1rem;
 }
 
