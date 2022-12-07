@@ -22,21 +22,35 @@
     border-radius: 10px;
 }
 
-@media screen and (min-width: 1024px) {
-
-.container__navegacao {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 0;
-}
-
-.navegacao__logo {
-    width: 20vh;
-}
-
-.participar__btn {
+.media-query {
     display: none;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .container__navegacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+        margin-bottom: .5rem;
+    }
+
+    .navegacao__logo {
+        width: 20vh;
+    }
+
+    .participar__btn {
+        display: none;
+    }
+
+    .media-query {
+        display: block;
+    }
+
+    .navegacao__titulo {
+        text-align: center;
+        padding-bottom: 5rem;
+    }
 
 }
