@@ -1,0 +1,22 @@
+@tailwind base;
+
+#root {
+  @apply m-0 p-0 w-screen h-screen font-roboto overflow-x-hidden text-xl
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container-col-center {
+    @apply flex flex-col items-center
+  }
+
+  .title-box {
+    @apply max-w-sm text-xl font-bold text-red-300 bg-yellow rounded-3xl mb-10 px-4 py-1
+  }
+
+  .button {
+    @apply bg-yellow py-3 px-4 rounded-3xl font-bold
+  }
+}
