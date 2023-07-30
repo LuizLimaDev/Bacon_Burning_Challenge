@@ -1,44 +1,32 @@
-import logoCoach from 'assets/logo_coach.png'
-import whatsappLogo from 'assets/whatsapp_logo.svg'
-import instagramLogo from 'assets/instagram_logo.svg'
+import logoCoach from "assets/logo_coach.png";
+import whatsLogo from "assets/whatsapp-logo.png";
+import instagramLogo from "assets/instagram-logo.png";
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="flex items-center justify-around bg-orange py-6 px-4">
+    <footer id="contact">
+      <div className="container-col-center py-9">
         <img
           src={logoCoach}
           alt="logo coach zicke"
-          className='w-48 h-20 lg:w-44'
+          className="w-36 mb-2"
         />
 
-        <div className='flex flex-col items-center gap-2 text-center'>
-          <p className='text-sm font-bold'>
-            Programa de emagrecimento
-            <p className='text-red-300 whitespace-pre-wrap'>
-              Bacon Burning&copy;
-            </p>
-          </p>
+        <p className="mb-5 text-xs">
+          Profissional de Educação Física CREF 124276-G/SP
+        </p>
 
-          <div className='flex gap-6'>
-            <a href="https://shortest.link/7cgs">
-              <img
-                src={whatsappLogo}
-                alt="icone whats app"
-                className='w-7'
-              />
-            </a>
+        <div className="flex gap-4">
+          <a href="https://api.whatsapp.com/send?phone=5514988116402&text=Ol%C3%A1,%0A%0AEu%20gostaria%20de%20saber%20mais%20sobre%20o%20programa%20%22Bacon%20Burning%20Challenge%22.%0A%0AObrigado(a)">
+            <img src={whatsLogo} alt="logo whatsapp" />
+          </a>
 
-            <a href="https://www.instagram.com/bacon.burning/">
-              <img
-                src={instagramLogo}
-                alt="icone instagram"
-                className='w-7'
-              />
-            </a>
-          </div>
+          <a href="https://www.instagram.com/bacon.burning/">
+            <img src={instagramLogo} alt="logo instagram" />
+          </a>
         </div>
+
       </div>
     </footer>
-  )
+  );
 }

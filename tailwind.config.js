@@ -7,27 +7,43 @@ export default {
   theme: {
     extend: {
       colors: {
-        yellow: "#f4d147",
-        orange: "#f96e04",
+        yellow: {
+          100: "#FFECA3",
+          200: "#F5D147"
+        },
+        orange: {
+          100: "#FFA35C",
+          200: "#F96E04",
+        },
         red: {
-          100: "#e8867b33",
-          200: "#ec524c",
-          300: "#b12622",
+          100: "#F5A49B",
+          200: "#B12622",
         },
         white: "#ffffff",
         black: "#000000",
-        gray: "#667085",
       },
       fontFamily: {
-        roboto: ['Roboto', 'sans-serif']
+        roboto: ["Roboto", "sans-serif"]
+      },
+      width: {
+        logoHero: "558px",
+        heroTextDiv: "655px",
+        caseImg: "563px",
+        textNewslatter: "556px",
       },
       height: {
-        caseImg: '400px'
+        showcase: "776px",
+        cardPlan: "606px",
+      },
+      backgroundImage: {
+        showcase: "url('assets/background01.png')",
+        theProgram: "url('assets/background02.png')",
+        cardPlan: "url('assets/cardPlan-background.png')",
       },
       screens: {
-        desktop: '1440px'
+        desktop: "1440px"
       }
     },
     plugins: [],
   }
-}
+};

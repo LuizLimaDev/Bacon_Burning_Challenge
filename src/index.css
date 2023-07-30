@@ -1,7 +1,7 @@
 @tailwind base;
 
 #root {
-  @apply m-0 p-0 w-screen h-screen font-roboto overflow-x-hidden text-xl
+  @apply w-screen h-screen font-roboto overflow-x-hidden text-xl
 }
 
 @tailwind components;
@@ -12,11 +12,31 @@
     @apply flex flex-col items-center
   }
 
-  .title-box {
-    @apply max-w-sm text-xl font-bold text-red-300 bg-yellow rounded-3xl mb-10 px-4 py-1
+  .container-header {
+    @apply w-full flex justify-center items-center px-24 py-7 bg-yellow-100
+  }
+
+  .container-theProgram {
+    @apply flex flex-col items-center bg-theProgram bg-cover bg-bottom pb-64
+  }
+
+  .container-showcase {
+    @apply flex items-center gap-56 px-24 py-20 bg-showcase bg-bottom bg-cover
+  }
+
+  .container-card {
+    @apply w-72 h-cardPlan px-6 py-10 mb-28 bg-cardPlan
   }
 
   .button {
-    @apply bg-yellow py-3 px-4 rounded-3xl font-bold
+    @apply py-5 px-20 rounded-full shadow-lg font-bold uppercase text-red-200 bg-yellow-200
+  }
+
+  .button-card-plan {
+    @apply px-4 py-2 border-2 border-orange-200 rounded-2xl text-orange-200 font-semibold uppercase
+  }
+
+  .button-newslatter {
+    @apply pt-4 pb-3 px-4 rounded-r-md bg-yellow-100 text-base font-bold
   }
 }
