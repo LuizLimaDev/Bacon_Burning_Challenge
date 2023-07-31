@@ -1,7 +1,7 @@
 <h1 align="center">Bacon Burning 🥓🔥</h1>
 
 <p align="center">Site pessoal para meus desafios de emagrecimento!</p>
-<br><br>
+<br>
 
 <h2 align="center"> :page_with_curl: Descrição do projeto </h2>
 <p align="center">Este projeto é uma Landing page para captação de clientes.<br>
@@ -15,6 +15,8 @@
 </a>
 </div>
 <br><br>
+
+<p align="center">⚠️ Desenvolvido para telas de 1440px</p>
 
 ![Desktop](https://i.ibb.co/vjThLPg/bacon-burning.png)
 
