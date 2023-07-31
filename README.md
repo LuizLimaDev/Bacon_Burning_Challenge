@@ -1,11 +1,13 @@
 <h1 align="center">Bacon Burning 🥓🔥</h1>
 
 <p align="center">Site pessoal para meus desafios de emagrecimento!</p>
+<p align="center">Este projeto é uma Landing page para captação de clientes.<br>
 <br>
 
 <h2 align="center"> :page_with_curl: Descrição do projeto </h2>
-<p align="center">Este projeto é uma Landing page para captação de clientes.<br>
-<p align="center">Todo o desing (criação própria) foi desenvolvido no Figma:</p>
+<p align="center">Primeiramente o site foi desenvolvido em HTML/CSS.<br>
+<p align="center">No segundo momento ele foi refatorado para React.<br>
+<p align="center">E por fim redesenhei todo o Desing no Figma:</p>
 
 <div align="center">
 <a 
@@ -17,8 +19,15 @@
 <br><br>
 
 <p align="center">⚠️ Desenvolvido para telas de 1440px</p>
+<p align="center">Assista o vídeo da evolução do site:</p>
 
-![Desktop](https://i.ibb.co/vjThLPg/bacon-burning.png)
+<div align="center">
+
+
+https://github.com/LuizLimaDev/Bacon_Burning_Challenge/assets/109322803/171daf06-fd0c-402a-a307-8d0861a2aa97
+
+
+</div>
 
 <br>
 
