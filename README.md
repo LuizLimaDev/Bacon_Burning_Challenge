@@ -36,7 +36,7 @@ https://github.com/LuizLimaDev/Bacon_Burning_Challenge/assets/109322803/171daf06
 <div align="center">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width=115>
   
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width=115>
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/tailwindcss.svg" width=115>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width=115/>         
 <div>
